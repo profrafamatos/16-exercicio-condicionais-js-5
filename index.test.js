@@ -30,9 +30,9 @@ describe('Testes da função diaDaSemana', () => {
     expect(diaDaSemana(7)).toBe("Sábado");
   });
 
-  test('deve retornar "Dia inválido!" para valores fora do intervalo', () => {
-    expect(diaDaSemana(0)).toBe("Dia inválido! Por favor, insira um número de 1 a 7.");
-    expect(diaDaSemana(8)).toBe("Dia inválido! Por favor, insira um número de 1 a 7.");
-    expect(diaDaSemana(-1)).toBe("Dia inválido! Por favor, insira um número de 1 a 7.");
+  test('deve retornar "dia inválido!" para valores fora do intervalo', () => {
+    expect(diaDaSemana(0)).toBe("dia inválido!");
+    expect(diaDaSemana(8)).toBe("dia inválido!");
+    expect(diaDaSemana(-1)).toBe("dia inválido!");
   });
 });

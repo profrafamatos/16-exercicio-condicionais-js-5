@@ -10,7 +10,7 @@
     6: "Sexta-feira"
     7: "Sábado"
 
-    Caso o dia seja diferente dos valores 1 a 7 deve retornar 'dia inválido'
+    Caso o dia seja diferente dos valores 1 a 7 deve retornar 'dia inválido!'
  
     Sintaxe:
       switch(valor):
